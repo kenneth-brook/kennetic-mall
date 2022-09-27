@@ -1,14 +1,10 @@
 import './sass-global/index.scss';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import TopNav from './global-components/TopNav';
 
 function App() {
   return (
     <div className="App">
+      <TopNav />
       <h1>Mall landing</h1>
     </div>
   );
