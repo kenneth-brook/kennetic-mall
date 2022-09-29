@@ -4,6 +4,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import MallHome from './global-components/MallHome';
 import Mall from './mall-home/Mall';
 import Gothic from './gothic-rex/Gothic';
 import Dad from './just-dad/Dad';
@@ -14,9 +15,10 @@ function App() {
   return (
     <div className="App">
         <Router>
-          <nav>Nav Bar Here</nav>
           <Routes>
-            <Route path="/" element={<Mall />}>
+            <Route path="/" element={<MallHome />}>
+              <Route index element={<Mall />} />
+              <Route path="mall-home" element={<Mall />} />
               <Route path="gothic-rex" element={<Gothic />} />
               <Route path="thats-just-dad" element={<Dad />} />
               <Route path="pancake-cat" element={<Pancake />} />
