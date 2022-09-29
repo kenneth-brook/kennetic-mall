@@ -1,11 +1,11 @@
 import React from "react";
 
-function Mall() {
+function Gothic() {
     return (
         <div>
-            <h1>Mall Home Page</h1>
+            <h1>Gothic Rex</h1>
         </div>
     );
 }
 
-export default Mall;
+export default Gothic;
