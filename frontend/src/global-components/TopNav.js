@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 function TopNav() {
     return (
         <nav className="topNav">
-            <Link to='/mall-home'>Mall Home</Link>
-            <Link to='/gothic-rex'>Gothic Rex</Link>
-            <Link to='/thats-just-dad'>Thats Just Dad</Link>
-            <Link to='/pancake-cat'>Pancake Cat</Link>
-            <Link to='/suddenly-sarcasim'>Suddenly Sarcasim</Link>
+            <Link to='/mall-home'><p>Mall Home</p></Link>
+            <Link to='/gothic-rex'><p>Gothic Rex</p></Link>
+            <Link to='/thats-just-dad'><p>Thats Just Dad</p></Link>
+            <Link to='/pancake-cat'><p>Pancake Cat</p></Link>
+            <Link to='/suddenly-sarcasim'><p>Suddenly Sarcasim</p></Link>
         </nav>
     );
 }

@@ -4,7 +4,7 @@ import TopNav from "./TopNav";
 
 function MallHome() {
     return (
-        <div>
+        <div className="mainWrap">
             <TopNav />
             <Outlet />
         </div>
