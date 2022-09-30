@@ -26,4 +26,39 @@
             }
         }
     }
+
+    .mallBodyWrap {
+        .hex {
+            display: block;
+            margin: 0 auto;
+            position: relative;
+            width: 320px;
+            height: 277.12px; /* width * 0.866 */
+            background: black;
+            box-sizing: border-box;
+            clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+            -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+            -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+            margin-top: 30px;
+            box-shadow: 6px 6px 12px #555;
+
+            .hex-background {
+                object-fit: contain;
+                background-color: black;
+                width: 312px;
+                height: 269.12px;
+                clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+                -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+                -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+                position: absolute;
+                top: 4px;
+                left: 4px;
+                
+                img {
+                    width: 320px;
+                    height: 277.12px;
+                }
+            }
+          }
+    }
 }
