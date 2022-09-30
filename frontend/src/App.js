@@ -10,6 +10,7 @@ import Gothic from './gothic-rex/Gothic';
 import Dad from './just-dad/Dad';
 import Pancake from './pancake-cat/Pancake';
 import Sarcasim from './suddenly-sarcasim/Sarcasim';
+import Footer from './global-components/Footer';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
               <Route path="suddenly-sarcasim" element={<Sarcasim />} />
             </Route>
           </Routes>
-          <footer>Footer Here</footer>
+          <Footer />
         </Router>
     </div>
   );
